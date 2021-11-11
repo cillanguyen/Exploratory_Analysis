@@ -1,6 +1,6 @@
 # Exploratory_Analysis
 
-+ this is the raw file for the [RAW 2019](https://raw.githubusercontent.com/cillanguyen/Exploratory_Analysis/2019.csv)
++ this is the raw file for the [RAW 2019](https://raw.githubusercontent.com/cillanguyen/Exploratory_Analysis/main/2019.csv)
 + this the raw file for the [RAW 2018](https://raw.githubusercontent.com/cillanguyen/Exploratory_Analysis/main/2018.csv)
 
 REFLECTION
