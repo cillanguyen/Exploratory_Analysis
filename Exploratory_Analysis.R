@@ -4,7 +4,7 @@ library(dplyr)
 install.packages("tidyverse")
 library(tidyverse)
 
-#REFLECTION: summary and description about the dataset
+#REFLECTION: Write a summary paragraph with description of the dataset.
 
 #read in happiness report 2018 and 2019
 df_2018 <- read.csv("https://raw.githubusercontent.com/cillanguyen/Exploratory_Analysis/main/2018.csv?token=AV3A5G2IPUNA6LKTTJ6VZL3BRRY4E")
@@ -17,7 +17,7 @@ col_2018 <- NCOL(df_2018)
 row_2019 <- NROW(df_2019)
 col_2019 <- NCOL(df_2019)
 
-#REFLECTION: what is the purpose of each column and what are they?
+#REFLECTION: hat is the purpose of each column and how did they contribute to the report?
 
 # find the min of "scores" in 2018
 
@@ -35,10 +35,10 @@ df_2019 <- df_2019 %>%
 #use groupby to get the range of the scores in the both dataset
 
 #Make a Scatterplot based on the score and GDP
-#REFLECTION: what is the purpose of analyzing the score and the GDP?
+#REFLECTION: What is the purpose of analyzing the relationship between the score and GDP?
 
 #Make a bar chart, with y = scores, x = each individial column for both dataset
-# REFLECTION: why is this revelant?
+# REFLECTION: Why is making a bar chart revalent in understanding the score of each column?
 
 #Make a map based on the countries and region. Just one map, since the two dataset
 #contains the exact same locations
